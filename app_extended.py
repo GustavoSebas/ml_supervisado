@@ -89,7 +89,6 @@ def build_features(prioridad, puntos, dias_estimados, asignado_id, titulo="", de
     X_base = pd.DataFrame({
         'puntos': [puntos],
         'dias_estimados': [dias_estimados],
-        'longitud_texto': [longitud_texto],
         'user_tasks_count': [user_tasks_count],
         'user_delay_rate': [user_delay_rate],
         'user_avg_days_real': [user_avg_days_real]
