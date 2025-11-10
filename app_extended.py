@@ -5,6 +5,7 @@ import joblib
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
+from db import get_engine
 
 app = FastAPI()
 
