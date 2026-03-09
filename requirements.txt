@@ -5,4 +5,5 @@ scikit-learn
 joblib
 python-dotenv
 SQLAlchemy
-pymysql
+pg8000
+gunicorn
